@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body, aside, header, h1, a, nav, ul, li, hr, footer{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    font-family: 'Patua One', cursive;
+    //*background: linear-gradient(rgba(56, 26, 8, 0.6), rgba(139, 75, 7, 0.6))repeat ;/*, url('images/bacground.png'), transparent;*/
+
+}
+
+aside{
+
+    width: 20%;
+}
+
+    aside .wrap {
+        width: 180px;
+        margin: 0 auto;
+    }
+
+   aside .logo a{
+        color: orange;
+        text-align: center;
+        text-decoration: none;
+        font-size: 34px;
+        display: block;
+        padding: 15px 0;
+       /*transform: rotate(-15deg);*/
+    }
+
+    aside header img {
+        max-width: 100%;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+
+        border: none;
+    }
+
+        aside header img:hover{
+            cursor: pointer;
+        }
+
+        .nav-bar ul{
+            list-style-type: none;
+            text-align: center;
+        }
+
+                .nav-bar ul li{
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+
+                    .nav-bar ul li a{
+                        text-decoration: none;
+                        background: #4E3A3B;
+                        color: orange;
+                        display: block;
+                        padding: 5px;
+                        border: 3px solid #98673C;
+
+                        transition: all 0.3s;
+                    }
+
+                    nav > ul li a:hover{
+                        cursor: pointer;
+                        background: orange;
+                        color: white;
+                    }
+
+                    .nav-bar ul li a .fa {
+                        margin-right: 5px;
+                    }
+
+            hr{
+                border: 3px solid #FF911B;
+                border-radius: 50%;
+                margin: 11px auto;
+                padding-right: 5px;
+
+            }
+
+
+            aside > a{
+                text-decoration: none;
+                background: #4E3A3B;
+                color: orange;
+                width: 180px;
+                height: 30px;
+                display: block;
+                margin: 0 auto;
+                border: 3px solid #98673C;
+                text-align: center;
+                position: relative;
+            }
+
+
+            .log-users li{
+                display: inline-block;
+                width: 45%;
+                height: 30px;
+                text-align: center;
+
+            }
+                .log-users li a{
+                    list-style-type: none;
+                    background: #4E3A3B;
+                    border: 3px solid #98673C;
+                    color: orange;
+                    text-decoration: none;
+                    float: left;
+                }
+
+
+
+
+
+
+
+
+
+            aside footer > nav ul{
+
+                list-style-type: none;
+                text-align: center;
+            }
+
+                aside footer > nav ul li{
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+
+                    aside footer > nav ul li a{
+                        text-decoration: none;
+                        background: #4E3A3B;
+                        color: orange;
+                        width: 180px;
+                        height: 30px;
+                        display: block;
+                        margin: 0 auto;
+                        border: 3px solid #98673C;
+                    }
+
+
+                    aside .social-media {
+                        padding: 0;
+                        margin: 0;
+
+                        list-style: none;
+                    }
+
+                    aside .social-media li{
+                        float: left;
+                        width: 50%;
+
+                        text-align: center;
+                    }
+
+
+
+
+                aside address{
+                        text-align: center;
+                        color: orange;
+                        text-transform: uppercase;
+                        display: block;
+                    }

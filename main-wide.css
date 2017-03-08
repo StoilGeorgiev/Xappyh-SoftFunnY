@@ -1,0 +1,242 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+html{
+    font-size: 14px;
+    font-family: Lato, sans-serif;
+    color: white;
+    background: url('images/background.png')fixed;
+    background-size: contain;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+
+aside {
+    height: 100%;
+    width: 15%;
+    background-color: #231818;
+    position: fixed;
+    margin: 0 15px;
+}
+.logo{
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 2.5em;
+    width: 100%;
+    padding-top: 20px;
+
+}
+.logo:hover{
+    cursor: pointer;
+}
+aside header img {
+    max-width: 70%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 150px;
+}
+
+aside header img:hover {
+    cursor: pointer;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav-bar ul li {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    background: #4E3A3B;
+    color: orange;
+    display: block;
+    padding: 5px;
+    border: 3px solid #98673C;
+
+    transition: all 0.3s;
+}
+
+nav > ul li a:hover {
+    cursor: pointer;
+    background: orange;
+    color: white;
+}
+
+.nav-bar ul li a .fa {
+    margin-right: 5px;
+}
+hr {
+    margin: 20px auto;
+    background: #FF911B;
+    border: none;
+    height: 1px;
+    width: 80%;
+}
+#register::before{
+    font-family: FontAwesome;
+    content: "\f007";
+    padding-right: 10px;
+}
+#login::before{
+    font-family: FontAwesome;
+    content: "\f090";
+    padding-right: 10px;
+}
+
+main {
+    width: 1000px;
+    background-color: #543738;
+    float: right;
+    margin-top: 40px;
+    margin-right: 70px;
+    border: 3px solid #98673C;
+}
+
+main .mame-container {
+    display: inline-block;
+}
+
+main .mame-container header {
+    background-color: #291719;
+    width: 600px;
+    margin-left: 30px;
+    border: 2px solid #98673C;
+    margin-top: 10px;
+}
+
+main .mame-container header h1, h2 {
+    margin-left: 20px;
+    line-height: 8px;
+    font-size: 1.2em;
+}
+
+main .mame-container img {
+    margin-left: 30px;
+    margin-top: 10px;
+    border: 2px solid #98673C;
+    margin-bottom: 30px;
+}
+
+main aside.right {
+    float: right;
+    width: 250px;
+    display: inline-block;
+    background-color: transparent;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+main aside.right i {
+    padding-right: 10px;
+}
+
+main aside.right > a:first-of-type {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #291719;
+    border-radius: 5px;
+    border: 2px solid #98673C;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 1.5em;
+    color: white;
+}
+
+main aside.right > a:nth-of-type(2) {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #291719;
+    border-radius: 5px;
+    border: 2px solid #98673C;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 1em;
+    color: white;
+    margin-top: 20px;
+}
+
+main aside.right > a:last-of-type {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #291719;
+    border-radius: 5px;
+    border: 2px solid #98673C;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 1em;
+    color: white;
+    margin-top: 10px;
+}
+
+aside .itemized-info {
+    margin: auto;
+    background-color: #291719;
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid #98673C;
+}
+
+aside .itemized-info span {
+    display: block;
+    font-size: 1.2em;
+}
+
+aside .itemized-info span:first-of-type {
+    padding-top: 10px;
+}
+
+aside .itemized-info > img {
+    border-radius: 50%;
+    border: 2px solid #98673C;
+    margin-top: 10px;
+}
+
+aside .itemized-info .memes {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 190px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+aside .itemized-info .memes img:nth-of-type(3), img:nth-of-type(4) {
+    margin-top: 5px;
+}
+
+
+
+
+
+

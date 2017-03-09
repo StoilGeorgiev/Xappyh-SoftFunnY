@@ -1,0 +1,57 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+main section{
+
+    display: inline-block;
+    background-color: #291719;
+    border-radius: 10px;
+    line-height: 10px;
+    text-align: left;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid #9E2C00;
+}
+
+main > section img{
+    margin: 0 auto;
+}
+
+main> section article{
+    max-width: 350px;
+    text-align: left;
+    padding-bottom: 15px;
+    margin: 3px;
+
+}
+
+main >section article span{
+
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family: "Lato", sans-serif;
+}
+
+main> section article p{
+    padding: 15px;
+    line-height: 15px;
+    color: #FF911B;;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+    text-align: justify;
+}
+
+.social-buttons{
+
+   text-align: center;
+    background: none;
+    color: blue;
+}
+
+.social-buttons button i{
+    background: none;
+}
+
+

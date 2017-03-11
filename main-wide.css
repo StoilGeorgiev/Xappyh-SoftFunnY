@@ -1,33 +1,32 @@
-.mame-container {
-    width: 70%;
+.meme-container {
+    width: 75%;
     float: left;
     background: #231818;
-    margin: 30px 50px;
+    margin: 20px;
     margin-bottom: 0;
 }
 
-.mame-container header {
+.meme-container header {
     background-color: #231818;
     border: 2px solid #98673C;
     border-radius: 5px;
     margin-bottom: 30px;
 }
 
-.mame-container header h1, h2 {
+.meme-container header h1, h2 {
     margin: 5px 10px;
     font-size: 2em;
     line-height: 40px;
     text-align: left;
 }
-.mame-container h2{
+.meme-container h2{
     font-size: 1.7em;
 }
-.mame-container img {
+.meme-container img {
     width: 70%;
     margin-left: 30px;
-    margin-top: 10px;
     border: 2px solid #98673C;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .right {
     position: relative;

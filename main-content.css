@@ -8,6 +8,8 @@ section.mame-container {
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 20px;
+    border: 2px solid #98673C;
+    border-radius: 5px;
 }
 .mame-container img {
     padding-top: 25px;

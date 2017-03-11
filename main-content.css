@@ -1,0 +1,66 @@
+
+section.mame-container {
+    width: 500px;
+    height: 550px;
+    background-color: #231818;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.mame-container img {
+    padding-top: 25px;
+}
+
+.mame-container article {
+    display: inline-block;
+    background-color: #291719;
+    border-radius: 10px;
+    line-height: 2em;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 2px solid #98673C;
+}
+
+.mame-container article p {
+    margin-left: 10px;
+}
+
+.mame-container .mame-info-left {
+    width: 250px;
+    height: 60px;
+}
+
+.mame-container .mame-info-right {
+    width: 170px;
+    height: 60px;
+}
+
+.mame-container .social-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.mame-container .social-buttons .like, .dislike {
+    width: 70px;
+    height: 30px;
+    background-color: #291719;
+    border-radius: 10px;
+    border: 2px solid #98673C;
+    color: white;
+    outline: none;
+}
+
+.mame-container .social-buttons .share {
+    width: 170px;
+    heigth: 30px;
+    background-color: #291719;
+    border-radius: 10px;
+    border: 2px solid #98673C;
+    color: white;
+    outline: none;
+}

@@ -3,16 +3,16 @@
 @import url('https://fonts.googleapis.com/css?family=Patua+One');
 
 main section{
-
+    vertical-align: top;
     display: inline-block;
     background-color: #291719;
     border-radius: 10px;
     line-height: 10px;
-    text-align: left;
+    text-align: center;
     margin-top: 25px;
+    padding: 10px;
     margin-right: 10px;
-    margin-left: 10px;
-    border: 1px solid #9E2C00;
+    border: 2px solid #98673C;
 }
 
 main > section img{
@@ -50,8 +50,19 @@ main> section article p{
     color: blue;
 }
 
-.social-buttons button i{
-    background: none;
+.social-buttons a{
+    text-decoration: none;
+    background: #4E3A3B;
+    color: #FF911B;
+    padding: 5px;
+    border: 3px solid #98673C;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 1.4em;
+    border-radius: 50px;
+    display: inline-block;
 }
 
 

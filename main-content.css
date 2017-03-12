@@ -1,5 +1,4 @@
-
-section.mame-container {
+.mame-container {
     width: 500px;
     height: 550px;
     background-color: #231818;
@@ -42,27 +41,26 @@ section.mame-container {
 }
 
 .mame-container .social-buttons {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+    margin: 17px 25px;
+    text-align: right;
 }
 
-.mame-container .social-buttons .like, .dislike {
+.like, .dislike,.share{
     width: 70px;
-    height: 30px;
+    height: 35px;
+    line-height: 32px;
     background-color: #291719;
     border-radius: 10px;
     border: 2px solid #98673C;
     color: white;
     outline: none;
 }
+.like, .dislike{
+    margin-right: 37px;
+}
 
-.mame-container .social-buttons .share {
-    width: 170px;
+.share {
+    width: 173px;
     heigth: 30px;
-    background-color: #291719;
-    border-radius: 10px;
-    border: 2px solid #98673C;
-    color: white;
-    outline: none;
+    margin-left: 20px;
 }

@@ -49,18 +49,29 @@
     width: 70px;
     height: 35px;
     line-height: 32px;
-    background-color: #291719;
+    background-color: #4E3A3B;
     border-radius: 10px;
     border: 2px solid #98673C;
-    color: white;
+    color: #FFA500;
     outline: none;
 }
 .like, .dislike{
     margin-right: 37px;
+}
+.like:active, .dislike:active{
+    cursor: pointer;
+    background: orange;
+    color: white;
 }
 
 .share {
     width: 173px;
     heigth: 30px;
     margin-left: 20px;
+    transition: all 0.3s;
+}
+.share:hover{
+    cursor: pointer;
+    background: orange;
+    color: white;
 }

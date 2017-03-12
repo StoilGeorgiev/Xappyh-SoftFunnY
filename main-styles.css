@@ -42,7 +42,7 @@ aside {
 .logo:hover{
     cursor: pointer;
 }
-aside header img {
+aside header img{
     max-width: 60%;
     display: block;
     text-align: center;

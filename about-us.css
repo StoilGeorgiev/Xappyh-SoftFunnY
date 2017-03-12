@@ -42,14 +42,6 @@ main> section article p{
     font-family: "Lato", sans-serif;
     text-align: justify;
 }
-
-.social-buttons{
-
-   text-align: center;
-    background: none;
-    color: blue;
-}
-
 .social-buttons a{
     text-decoration: none;
     background: #4E3A3B;

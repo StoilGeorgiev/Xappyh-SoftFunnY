@@ -26,7 +26,7 @@
     border: 2px solid #98673C;
 }
 
-.mame-container article p {
+.mame-container article p, h2 {
     margin-left: 10px;
 }
 
@@ -66,7 +66,6 @@
 
 .share {
     width: 173px;
-    heigth: 30px;
     margin-left: 20px;
     transition: all 0.3s;
 }

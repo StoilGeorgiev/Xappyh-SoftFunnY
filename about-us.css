@@ -11,26 +11,30 @@ main section{
     text-align: center;
     margin-top: 25px;
     padding: 10px;
-    margin-right: 21px;
+    margin-right: 1%;
     border: 2px solid #98673C;
-    transition: all 0.3s;
+    min-height: 590px;
+    width: 32%;
+    box-sizing: border-box;
+    transition: all linear 0.3s 0.1s;
+}
+
+main> section:hover{
+
+    transition: all linear 0.3s 0.1s;
+    box-shadow: 3px 3px 30px #FF911B;;
 }
 
 main > section img{
     margin: 0 auto;
+    max-width: 100%;
 }
 
 main> section article{
     max-width: 350px;
     text-align: left;
     padding-bottom: 15px;
-    margin: 3px;
-}
-
-main> section:hover{
-
-    transform: scale(1.1) translateY(10%);
-    border: 3px solid #FF911B;
+    margin: 1px;
 }
 
 main >section article span{
@@ -41,12 +45,17 @@ main >section article span{
 }
 
 main> section article p{
-    padding: 15px;
+    padding: 7px;
     line-height: 15px;
     color: #FF911B;
     font-weight: bold;
     font-family: "Lato", sans-serif;
     text-align: justify;
+    height: 31px;
+}
+
+.social-buttons{
+    padding: 25px;
 }
 
 .social-buttons a{
@@ -64,6 +73,7 @@ main> section article p{
     display: inline-block;
     margin: 0 5px;
     transition: all 0.3s;
+    vertical-align: bottom;
 }
 .social-buttons a:hover {
     transform: scale(1.3);

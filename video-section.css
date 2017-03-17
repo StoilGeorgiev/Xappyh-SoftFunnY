@@ -1,7 +1,6 @@
-
-section.mame-container {
+.mame-container {
     width: 500px;
-    height: 550px;
+    height: 520px;
     background-color: #231818;
     text-align: center;
     display: inline-block;
@@ -10,6 +9,9 @@ section.mame-container {
     margin-top: 20px;
     border: 2px solid #98673C;
     border-radius: 5px;
+}
+.mame-container img {
+    padding-top: 25px;
 }
 
 .mame-container article {
@@ -24,48 +26,55 @@ section.mame-container {
     border: 2px solid #98673C;
 }
 
-video {
-    background-color: #231818;
-    display: block;
-    margin: 0 auto;
-}
-
-.mame-container article p {
+.mame-container article p, h2 {
     margin-left: 10px;
 }
 
-.mame-container .mame-info-left {
+.mame-info-left {
     width: 250px;
     height: 60px;
 }
 
-.mame-container .mame-info-right {
+.mame-info-right {
     width: 170px;
     height: 60px;
 }
 
-.mame-container .social-buttons {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+.social-buttons {
+    margin: 17px 25px;
+    text-align: right;
 }
 
-.mame-container .social-buttons .like, .dislike {
+.like, .dislike,.share{
     width: 70px;
-    height: 30px;
-    background-color: #291719;
+    height: 35px;
+    line-height: 32px;
+    background-color: #4E3A3B;
     border-radius: 10px;
     border: 2px solid #98673C;
-    color: white;
+    color: #FFA500;
     outline: none;
 }
-
-.mame-container .social-buttons .share {
-    width: 170px;
-    heigth: 30px;
-    background-color: #291719;
-    border-radius: 10px;
-    border: 2px solid #98673C;
+.like, .dislike{
+    margin-right: 37px;
+}
+.like:active, .dislike:active{
+    cursor: pointer;
+    background: orange;
     color: white;
-    outline: none;
+}
+
+.share {
+    width: 173px;
+    margin-left: 20px;
+    transition: all 0.3s;
+}
+.share:hover{
+    cursor: pointer;
+    background: orange;
+    color: white;
+}
+video{
+    width: 450px;
+    height: 380px;
 }

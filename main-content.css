@@ -30,17 +30,17 @@
     margin-left: 10px;
 }
 
-.mame-container .mame-info-left {
+.mame-info-left {
     width: 250px;
     height: 60px;
 }
 
-.mame-container .mame-info-right {
+.mame-info-right {
     width: 170px;
     height: 60px;
 }
 
-.mame-container .social-buttons {
+.social-buttons {
     margin: 17px 25px;
     text-align: right;
 }

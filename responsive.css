@@ -1,0 +1,82 @@
+@media screen and (max-width: 1310px) {
+    .mame-container{
+        transform: scale(1.5);
+        margin-top: 150px;
+        margin-bottom: 180px;
+    }
+    .logo{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 930px){
+    .mame-container{
+        transform: scale(1.2);
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 760px){
+    html{
+        font-size: 12px;
+    }
+    main{
+        margin: 0;
+    }
+    aside{
+        position: inherit;
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+    header{
+        width: 80%;
+        height: 50px;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+    }
+    .logo{
+        line-height: 50px;
+        font-size: 2rem;
+    }
+    header img{
+        position: relative;
+        height: 50px;
+        top: -57px;
+        left: -110px;
+    }
+    main{
+        width: 100%;
+        margin: 0;
+    }
+    .mame-container{
+        transform: scale(1);
+        margin: 10px 0;
+    }
+    .register, .user-login{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 500px){
+    .mame-container{
+        margin: 10px auto;
+        display: block;
+        width: 95%;
+        height: 100%;
+    }
+    .mame-container img{
+        width: 90%;
+    }
+    .mame-info-left, .mame-info-right{
+        display: block;
+        width: 90%;
+        font-size: 1rem;
+    }
+    .social-buttons, .like, .dislike,.share{
+        display: inline-block;
+        margin: 5px;
+    }
+}

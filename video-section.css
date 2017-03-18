@@ -41,7 +41,7 @@
 }
 
 .social-buttons {
-    margin: 17px 25px;
+    margin: 10px 25px;
     text-align: right;
 }
 
@@ -77,4 +77,6 @@
 video{
     width: 450px;
     height: 380px;
+    object-fit: fill;
+    margin-top: 8px;
 }

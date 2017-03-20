@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Patua+One');
 
 main section{
+    position: relative;
     vertical-align: top;
     display: inline-block;
     background-color: #291719;
@@ -27,7 +28,7 @@ main> section:hover{
 
 main > section img{
     margin: 0 auto;
-    max-width: 100%;
+    width: 100%;
 }
 
 main> section article{
@@ -55,7 +56,11 @@ main> section article p{
 }
 
 .social-buttons{
-    padding: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 11px;
+    width: 100%;
+
 }
 
 .social-buttons a{

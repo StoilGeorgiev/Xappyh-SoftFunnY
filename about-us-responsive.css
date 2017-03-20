@@ -29,6 +29,10 @@ header {
     font-size: 2rem;
 }
 
+main>section{
+    min-height: 800px;
+}
+
     .author-one{
         display: block;
         width: 95%;
@@ -59,27 +63,15 @@ header {
         width: 95%;
     }
 
-
 }
 
 @media screen and (max-width: 500px){
 
-  .author-one{
-      display: block;
-      width: 95%;
-      margin-bottom: 5px;
-  }
-
-    .author-two{
+    main>section{
         display: block;
         width: 95%;
-        margin-bottom: 5px;
-    }
-
-    .author-three{
-        display: block;
-        width: 95%;
-        margin-bottom: 5px;
+        margin: 0 auto 5px auto;
+        min-height: 590px;
     }
 
     .author-one img{
@@ -93,5 +85,4 @@ header {
     .author-three img{
         width: 95%;
     }
-
 }

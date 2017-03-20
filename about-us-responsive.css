@@ -1,0 +1,97 @@
+@media screen and (max-width: 760px){
+
+html {
+    font-size: 12px;
+}
+
+main {
+    margin: 0;
+    width: 100%;
+}
+
+aside {
+    position: inherit;
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    line-height: 50px;
+    font-size: 2rem;
+}
+
+    .author-one{
+        display: block;
+        width: 95%;
+        margin-bottom: 5px;
+    }
+
+    .author-two{
+        display: block;
+        width: 95%;
+        margin-bottom: 5px;
+    }
+
+    .author-three{
+        display: block;
+        width: 95%;
+        margin-bottom: 5px;
+    }
+
+    .author-one img{
+        width: 95%;
+    }
+
+    .author-two img{
+        width: 95%;
+    }
+
+    .author-three img{
+        width: 95%;
+    }
+
+
+}
+
+@media screen and (max-width: 500px){
+
+  .author-one{
+      display: block;
+      width: 95%;
+      margin-bottom: 5px;
+  }
+
+    .author-two{
+        display: block;
+        width: 95%;
+        margin-bottom: 5px;
+    }
+
+    .author-three{
+        display: block;
+        width: 95%;
+        margin-bottom: 5px;
+    }
+
+    .author-one img{
+        width: 95%;
+    }
+
+    .author-two img{
+        width: 95%;
+    }
+
+    .author-three img{
+        width: 95%;
+    }
+
+}

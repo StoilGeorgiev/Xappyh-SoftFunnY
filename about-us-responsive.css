@@ -1,88 +1,109 @@
-@media screen and (max-width: 760px){
+@media screen and (max-width: 760px) {
 
-html {
-    font-size: 12px;
-}
+    html {
+        font-size: 12px;
+    }
 
-main {
-    margin: 0;
-    width: 100%;
-}
+    main {
+        margin: 0;
+        width: 100%;
+    }
 
-aside {
-    position: inherit;
-    display: block;
-    margin: 0;
-    width: 100%;
-}
+    aside {
+        position: inherit;
+        display: block;
+        margin: 0;
+        width: 100%;
+        padding-bottom: 10px;
+    }
 
-header {
-    width: 80%;
-    height: 50px;
-    text-align: center;
-    margin: 0 auto;
-    position: relative;
-}
+    header {
+        width: 80%;
+        height: 50px;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+    }
 
-.logo {
-    line-height: 50px;
-    font-size: 2rem;
-}
+    .logo {
+        line-height: 50px;
+        font-size: 2rem;
+    }
 
-main>section{
-    min-height: 800px;
-}
-
-    .author-one{
+    .author-one {
         display: block;
         width: 95%;
         margin-bottom: 5px;
     }
 
-    .author-two{
+    .author-two {
         display: block;
         width: 95%;
         margin-bottom: 5px;
     }
 
-    .author-three{
+    .author-three {
         display: block;
         width: 95%;
         margin-bottom: 5px;
     }
 
-    .author-one img{
+    .author-one img {
         width: 95%;
     }
 
-    .author-two img{
+    .author-two img {
         width: 95%;
     }
 
-    .author-three img{
+    .author-three img {
         width: 95%;
     }
 
+    main > section {
+        margin: 30px auto;
+    }
+
+    section article p {
+        margin-left: 20px;
+        display: block;
+        width: 80%;
+    }
+
+    main > section article p:last-of-type {
+        margin-bottom: 40px;
+    }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
 
-    main>section{
+    main > section {
         display: block;
         width: 95%;
         margin: 0 auto 5px auto;
-        min-height: 590px;
     }
 
-    .author-one img{
+    section article p {
+        margin-left: 0;
+    }
+    main > section article p:last-of-type {
+        margin-bottom: 60px;
+    }
+
+    .social-buttons {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .author-one img {
         width: 95%;
     }
 
-    .author-two img{
+    .author-two img {
         width: 95%;
     }
 
-    .author-three img{
+    .author-three img {
         width: 95%;
     }
 }

@@ -52,13 +52,13 @@ main> section article p{
     font-weight: bold;
     font-family: "Lato", sans-serif;
     text-align: justify;
-    height: 31px;
+    height: 30px;
 }
-
+main> section article p:last-of-type{
+    height: 55px;
+}
 .social-buttons{
-    position: absolute;
-    left: 0;
-    bottom: 8px;
+   margin-top: 20px;
     width: 100%;
 
 }

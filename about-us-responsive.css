@@ -1,3 +1,8 @@
+@media screen and (max-width: 1050px){
+    main> section article p:last-of-type{
+        height: 100px;
+        }
+    }
 @media screen and (max-width: 760px) {
 
     html {
